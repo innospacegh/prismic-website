@@ -11,12 +11,15 @@
     "gatsby-plugin-offline": "^3.2.29",
     "gatsby-plugin-react-helmet": "^3.3.12",
     "gatsby-plugin-sharp": "^2.6.37",
+    "gatsby-plugin-webfonts": "^1.1.3",
     "gatsby-source-filesystem": "^2.3.31",
     "gatsby-transformer-sharp": "^2.5.16",
+    "polished": "^3.6.7",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.0",
     "typescript": "^4.0.3"
   },
   "devDependencies": {
@@ -24,6 +27,7 @@
     "@types/react": "^16.9.50",
     "@types/react-dom": "^16.9.8",
     "@types/react-helmet": "^6.1.0",
+    "@types/styled-components": "^5.1.3",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
     "eslint": "^7.10.0",
