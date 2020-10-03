@@ -1,3 +1,5 @@
+import { fonts, typeScale } from './typography'
+
 const colors = {
     headingColor: 'hsl(0, 0%, 15%)',
     bodyColor: 'hsl(0, 0%, 35%)',
@@ -5,8 +7,8 @@ const colors = {
 }
 
 const typography = {
-    primaryFont: `"Poppins", Arial, Helvetica, sans-serif`,
-    altFont: `"Muli", Arial, Helvetica, sans-serif`,
+    fonts,
+    typeScale,
 }
 
 const theme = {
