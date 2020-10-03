@@ -44,6 +44,20 @@ module.exports = {
                 },
             },
         },
+        {
+            resolve: 'gatsby-source-prismic',
+            options: {
+                repositoryName: 'spacegh',
+                accessToken: '',
+                // linkResolver: ({ node, key, value }) => doc => {
+                //     // Your link resolver
+                // },
+                schemas: {
+                    page: require('./src/schemas/page.json'),
+                },
+                lang: '*',
+            },
+        },
         `gatsby-plugin-typescript`,
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
