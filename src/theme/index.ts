@@ -1,4 +1,4 @@
-import { DefaultTheme } from 'styled-components'
+// import { DefaultTheme } from 'styled-components'
 import { fonts, typeScale } from './typography'
 
 const colors = {
@@ -12,7 +12,7 @@ const typography = {
     typeScale,
 }
 
-export const defaultTheme: DefaultTheme = {
+export const defaultTheme = {
     colors,
     typography,
 }
