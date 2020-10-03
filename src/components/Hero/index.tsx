@@ -5,11 +5,12 @@ import { graphql, useStaticQuery } from 'gatsby'
 const HeroContainer = styled.div`
     text-align: center;
     margin: auto;
-    background: hsl(180, 60%, 60%);
+    background: hsl(160, 60%, 80%);
+    min-height: 780px;
 `
 
 const HeroHeading = styled.h1`
-    font-size: 50px;
+    /* font-size: 50px;
     font-weight: 600;
     line-height: 1.2;
     color: hsl(0, 0%, 99%);
@@ -22,11 +23,11 @@ const HeroHeading = styled.h1`
     @media screen and (max-width: 600px) {
         font-size: 36px;
         width: 90%;
-    }
+    } */
 `
 
 const HeroSubtitle = styled.p`
-    font-size: 20px;
+    /* font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     color: hsl(0, 0%, 95%);
@@ -39,11 +40,11 @@ const HeroSubtitle = styled.p`
     @media screen and (max-width: 600px) {
         font-size: 16px;
         width: 100%;
-    }
+    } */
 `
 
 const HeroButton = styled.button`
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     line-height: 50px;
     font-size: 24px;
@@ -52,7 +53,7 @@ const HeroButton = styled.button`
     &:active {
         background-color: ${props => props.theme.colors.innospaceGreen};
         color: white;
-    }
+    } */
 `
 
 const Hero = () => {

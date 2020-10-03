@@ -7,4 +7,4 @@
   InnoSpace Website
 </h1>
 
-Built by [knada](http://github.com/knada) with React, Gatsby, Typescript, Styled Components and Prismic.io.
+<p align="center">Built by [knada](http://github.com/knada) with React, Gatsby, Typescript, Styled Components and Prismic.io.</p>

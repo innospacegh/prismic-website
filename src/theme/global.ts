@@ -3,7 +3,7 @@ import { normalize } from 'polished'
 
 export const GlobalStyles = createGlobalStyle`
     ${normalize()}
-    *, *::before, *::after {
+    *, *::before, *::after, h1 {
         box-sizing: border-box;
         margin: 0;
         padding: 0;

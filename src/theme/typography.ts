@@ -1,6 +1,6 @@
 export const fonts = {
-    primaryFont: `"Poppins", Arial, Helvetica, sans-serif`,
-    altFont: `"Muli", Arial, Helvetica, sans-serif`,
+    body: `"Poppins", Arial, Helvetica, sans-serif`,
+    heading: `"Muli", Arial, Helvetica, sans-serif`,
 }
 
 export const typeScale = {
