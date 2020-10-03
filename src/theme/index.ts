@@ -1,5 +1,6 @@
 // import { DefaultTheme } from 'styled-components'
 import { fonts, typeScale } from './typography'
+import { breakpoints } from './breakpoints'
 
 const colors = {
     headingColor: 'hsl(0, 0%, 15%)',
@@ -15,4 +16,5 @@ const typography = {
 export const defaultTheme = {
     colors,
     typography,
+    breakpoints,
 }

@@ -44,6 +44,10 @@ module.exports = {
                             family: 'Muli',
                             variants: ['400', '600', '700'],
                         },
+                        {
+                            family: 'Sen',
+                            variants: ['400', '700'],
+                        },
                     ],
                 },
             },

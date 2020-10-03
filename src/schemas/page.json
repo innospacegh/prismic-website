@@ -20,8 +20,27 @@
                 "placeholder": "Description..."
             }
         },
-        "image": {
-            "type": "Image"
+        "background_image": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "thumbnails": [
+                    {
+                        "name": "tablet",
+                        "width": 1000,
+                        "height": 1000
+                    },
+                    {
+                        "name": "mobile",
+                        "width": 600,
+                        "height": 800
+                    }
+                ],
+                "label": "Background Image"
+            }
         }
     }
 }
